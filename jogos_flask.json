@@ -1,0 +1,51 @@
+[{
+  "_id": {
+    "$oid": "643dca7b1a881e45eab9a12c"
+  },
+  "nome": "Valorant",
+  "categorias": [
+    "Online",
+    "FPS"
+  ]
+},{
+  "_id": {
+    "$oid": "643dca7b1a881e45eab9a12d"
+  },
+  "nome": "DOTA2",
+  "categorias": [
+    "Online",
+    "MOBA"
+  ]
+},{
+  "_id": {
+    "$oid": "643dcbb51a881e45eab9a12e"
+  },
+  "nome": "God of War",
+  "categorias": [
+    "Offline",
+    "História",
+    "RPG"
+  ]
+},{
+  "_id": {
+    "$oid": "6440577b0241cac6fac16ac2"
+  },
+  "nome": "Need For Speed",
+  "categorias": [
+    "Online",
+    "Corrida",
+    "Carros",
+    "Veloz"
+  ]
+},{
+  "_id": {
+    "$oid": "644057b30241cac6fac16ac3"
+  },
+  "nome": "League Of Legends",
+  "categorias": [
+    "Online",
+    "MOBA",
+    "MMO",
+    "RPG"
+  ]
+}]

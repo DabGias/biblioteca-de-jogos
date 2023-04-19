@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+      <meta charset="UTF-8">
+      <title>Jogos</title>
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Rubik', sans-serif;
+        }
+
+        .container {
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(0deg, rgba(2,21,55,1) 30%, rgba(11,0,207,1) 100%);
+        }
+
+        .page-header {
+            font-size: 1.5em;
+            text-align: center;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            margin: 50px auto;
+            padding: 20px;
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+        }
+
+        form .form-control {
+            font-size: 1.25em;
+            width: 60%;
+            padding: 20px;
+            margin: 10px auto;
+            border-radius: 20px;
+            border: none;
+        }
+
+        form .form-control::placeholder {
+            text-align: center;
+        }
+
+        form button {
+            font-size: 1.25em;
+            color: white;
+            background-color: unset;
+            padding: 10px;
+            border-top-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            border: none;
+            margin-top: 50px;
+            transition: 250ms;
+        }
+
+        form button:hover {
+            cursor: pointer;
+            color: black;
+            background-color: #00ff2b;
+            transition: 250ms;
+        }
+      </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="page-header">
+          <h1>Cadastre um novo jogo</h1>
+      </div>
+      <form action="/cadastrar" method="post">
+        <input type="text" id="nome" name="nome" class="form-control" placeholder="Nome">
+        <input type="text" id="categorias" name="categorias" class="form-control" placeholder="Categorias">
+        <button type="submit" class="btn btn-primary btn-salvar">Salvar</button>
+      </form>
+    </div>
+</body>
+</html>
