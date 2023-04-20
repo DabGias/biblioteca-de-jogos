@@ -22,7 +22,7 @@
 
 Esse projeto foi feito com Python, Flask e MongoDB. Criei esse projeto para estudar e praticar minhas novas habilidades e conhecimento em Python e MongoDB.
 
-Para executar o projeto você precisa de uma IDE (Pycharm ou VSCode), Python instalado (na construção usei a versão 3.9), a biblioteca Flask (para criação e execução do app Web), MongoDB Compass e Mongosh instalados.
+Para executar o projeto você precisa de uma IDE (Pycharm ou VSCode), Python instalado (na construção usei a versão 3.9), a biblioteca Flask (para criação e execução do app Web) e Pymongo (Para fazer as requisições ao banco de dados), MongoDB Compass e Mongosh instalados.
 
 Após tudo estar instalado importe o arquivo `jogos_flask.json` no MongoDB Compass para adicionar os dados ao banco de dados; depois abra a IDE de sua escolha e rode o projeto, no console será informado o link de acesso.
 
